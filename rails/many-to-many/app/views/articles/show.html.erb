@@ -6,3 +6,8 @@
   <strong>Text:</strong>
   <%= @article.text %>
 </p>
+<ul>
+  <% @article.authors.each do |author| %>
+    <li><%= author.name %></li>
+  <% end %>
+</ul>

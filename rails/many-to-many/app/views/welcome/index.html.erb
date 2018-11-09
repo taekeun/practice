@@ -4,3 +4,21 @@
 <%= link_to "articles", articles_path %>
 
 <%= link_to "authors", authors_url %>
+
+<h2>Todo</h2>
+<ul>
+  <li>
+    article 을 삭제할때 relation 도 같이 삭제 할 수 있는가?
+    <ul>
+      <li>article.delete 로 해봤다. author.articles 하면 안나온다.</li>
+      <li>그런데... join table 에 가보면 관계는 여전히 남아 있다.</li>
+      <li>Sqlite 잘 모르겠다. MySql 로 확인해 보자.</li>
+      <li>여튼 article.authors.clear 하면 다 날려준다.</li>
+    </ul>
+  </li>
+</ul>
+
+<h2>Done</h2>
+<ul>
+  <li>목록을 가지고 올때 include 를 할 수 있는가? article 목록에서 author 숫자 표시 </li>
+</ul>
