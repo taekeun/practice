@@ -1,4 +1,1 @@
-Codewars
-Leetcode
-HackerRank
-Codility
+
